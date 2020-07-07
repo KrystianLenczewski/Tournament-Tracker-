@@ -1,0 +1,14 @@
+C:\Users\PC\Desktop\C#_cwiczenia\Tournament_Project\TrackerLibrary\TrackerUI\bin\Debug\TrackerUI.exe.config
+C:\Users\PC\Desktop\C#_cwiczenia\Tournament_Project\TrackerLibrary\TrackerUI\bin\Debug\TrackerUI.exe
+C:\Users\PC\Desktop\C#_cwiczenia\Tournament_Project\TrackerLibrary\TrackerUI\bin\Debug\TrackerUI.pdb
+C:\Users\PC\Desktop\C#_cwiczenia\Tournament_Project\TrackerLibrary\TrackerUI\obj\Debug\TrackerUI.csprojAssemblyReference.cache
+C:\Users\PC\Desktop\C#_cwiczenia\Tournament_Project\TrackerLibrary\TrackerUI\obj\Debug\TrackerUI.TournamentViewForm.resources
+C:\Users\PC\Desktop\C#_cwiczenia\Tournament_Project\TrackerLibrary\TrackerUI\obj\Debug\TrackerUI.Properties.Resources.resources
+C:\Users\PC\Desktop\C#_cwiczenia\Tournament_Project\TrackerLibrary\TrackerUI\obj\Debug\TrackerUI.csproj.GenerateResource.cache
+C:\Users\PC\Desktop\C#_cwiczenia\Tournament_Project\TrackerLibrary\TrackerUI\obj\Debug\TrackerUI.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\C#_cwiczenia\Tournament_Project\TrackerLibrary\TrackerUI\obj\Debug\TrackerUI.exe
+C:\Users\PC\Desktop\C#_cwiczenia\Tournament_Project\TrackerLibrary\TrackerUI\obj\Debug\TrackerUI.pdb
+C:\Users\PC\Desktop\C#_cwiczenia\Tournament_Project\TrackerLibrary\TrackerUI\obj\Debug\TrackerUI.CreateTournamentForm.resources
+C:\Users\PC\Desktop\C#_cwiczenia\Tournament_Project\TrackerLibrary\TrackerUI\obj\Debug\TrackerUI.CreatePrizeForm.resources
+C:\Users\PC\Desktop\C#_cwiczenia\Tournament_Project\TrackerLibrary\TrackerUI\obj\Debug\TrackerUI.CreateTeamForm.resources
+C:\Users\PC\Desktop\C#_cwiczenia\Tournament_Project\TrackerLibrary\TrackerUI\obj\Debug\TrackerUI.TournamentDashboardForm.resources

@@ -12,3 +12,8 @@ C:\Users\PC\Desktop\C#_cwiczenia\Tournament_Project\TrackerLibrary\TrackerUI\obj
 C:\Users\PC\Desktop\C#_cwiczenia\Tournament_Project\TrackerLibrary\TrackerUI\obj\Debug\TrackerUI.CreatePrizeForm.resources
 C:\Users\PC\Desktop\C#_cwiczenia\Tournament_Project\TrackerLibrary\TrackerUI\obj\Debug\TrackerUI.CreateTeamForm.resources
 C:\Users\PC\Desktop\C#_cwiczenia\Tournament_Project\TrackerLibrary\TrackerUI\obj\Debug\TrackerUI.TournamentDashboardForm.resources
+C:\Users\PC\Desktop\C#_cwiczenia\Tournament_Project\TrackerLibrary\TrackerUI\bin\Debug\TrackerLibrary.dll
+C:\Users\PC\Desktop\C#_cwiczenia\Tournament_Project\TrackerLibrary\TrackerUI\bin\Debug\TrackerLibrary.pdb
+C:\Users\PC\Desktop\C#_cwiczenia\Tournament_Project\TrackerLibrary\TrackerUI\obj\Debug\TrackerUI.csproj.CopyComplete
+C:\Users\PC\Desktop\C#_cwiczenia\Tournament_Project\TrackerLibrary\TrackerUI\bin\Debug\Dapper.dll
+C:\Users\PC\Desktop\C#_cwiczenia\Tournament_Project\TrackerLibrary\TrackerUI\bin\Debug\Dapper.xml

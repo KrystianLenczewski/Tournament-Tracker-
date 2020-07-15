@@ -31,7 +31,7 @@
             this.headerLabel = new System.Windows.Forms.Label();
             this.placeNumberValue = new System.Windows.Forms.TextBox();
             this.placeNumberLabel = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.placeNameValuePrize = new System.Windows.Forms.TextBox();
             this.placeNameValue = new System.Windows.Forms.Label();
             this.prizeAmountValue = new System.Windows.Forms.TextBox();
             this.prizeAmountLabel = new System.Windows.Forms.Label();
@@ -68,12 +68,12 @@
             this.placeNumberLabel.TabIndex = 23;
             this.placeNumberLabel.Text = "Place Number";
             // 
-            // textBox1
+            // placeNameValuePrize
             // 
-            this.textBox1.Location = new System.Drawing.Point(178, 151);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(134, 20);
-            this.textBox1.TabIndex = 26;
+            this.placeNameValuePrize.Location = new System.Drawing.Point(178, 151);
+            this.placeNameValuePrize.Name = "placeNameValuePrize";
+            this.placeNameValuePrize.Size = new System.Drawing.Size(134, 20);
+            this.placeNameValuePrize.TabIndex = 26;
             // 
             // placeNameValue
             // 
@@ -153,7 +153,7 @@
             this.Controls.Add(this.prizePercentageLabel);
             this.Controls.Add(this.prizeAmountValue);
             this.Controls.Add(this.prizeAmountLabel);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.placeNameValuePrize);
             this.Controls.Add(this.placeNameValue);
             this.Controls.Add(this.placeNumberValue);
             this.Controls.Add(this.placeNumberLabel);
@@ -170,7 +170,7 @@
         private System.Windows.Forms.Label headerLabel;
         private System.Windows.Forms.TextBox placeNumberValue;
         private System.Windows.Forms.Label placeNumberLabel;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox placeNameValuePrize;
         private System.Windows.Forms.Label placeNameValue;
         private System.Windows.Forms.TextBox prizeAmountValue;
         private System.Windows.Forms.Label prizeAmountLabel;

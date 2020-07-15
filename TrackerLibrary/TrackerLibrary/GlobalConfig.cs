@@ -10,18 +10,19 @@ namespace TrackerLibrary
 {
     public static class GlobalConfig
     {
-        public static List<IDataConnection> Connections { get; private set; } = new List<IDataConnection>();
-        public static void InitalizeConnections(bool database, bool textFile)
+        public static IDataConnection Connections { get; private set; }
+        public static void InitalizeConnections(DatabaseType db)
         {
-            if(database)
+            
+            if (db==DatabaseType.Sql)
             {
                 SqlConnector sqlConnector = new SqlConnector();
-                Connections.Add(sqlConnector);
+                Connections = sqlConnector;
             }
-            if(textFile)
+            else if(db==DatabaseType.TextFile)
             {
                 TextConnector text = new TextConnector();
-                Connections.Add(text);
+                Connections = text;
             }
         }
         public static string CnnString(string name)
@@ -30,5 +31,5 @@ namespace TrackerLibrary
         }
 
     }
- 
+
 }

@@ -10,7 +10,23 @@ namespace TrackerLibrary.DataAccess
 {
     public class TextConnector : IDataConnection
     {
-        private const string PrizesFile = "PrizeModel.csv";
+        private const string PrizesFile = "PrizeModels.csv";
+        private const string PeopleFile = "PersonModels.csv";
+        public Person CreatePerson(Person model)
+        {
+            List<Person> people = PeopleFile.FullFilePath().LoadFile().ConvertToPerson();
+            int currentId = 1;
+            if (people.Count > 0)
+            {
+                currentId = people.OrderByDescending(x => x.Id).First().Id + 1;
+            }
+
+            model.Id = currentId;
+
+            people.Add(model);
+            people.SaveToPeopleFile(PeopleFile);
+            return model;
+        }
 
         //Dapper
         public PrizeModel CreatePrize(PrizeModel model)
@@ -39,6 +55,9 @@ namespace TrackerLibrary.DataAccess
 
         }
 
-      
+        public List<Person> GetPerson_All()
+        {
+            return PeopleFile.FullFilePath().LoadFile().ConvertToPerson();
+        }
     }
 }

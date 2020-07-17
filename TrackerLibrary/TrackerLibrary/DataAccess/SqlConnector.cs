@@ -12,6 +12,26 @@ namespace TrackerLibrary.DataAccess
     	
     public class SqlConnector : IDataConnection
     {
+        private const string db = "Tournaments";
+        public Person CreatePerson(Person model)
+        {
+            using (IDbConnection connection = new System.Data.SqlClient.SqlConnection(GlobalConfig.CnnString("Tournaments")))
+            {
+                var p = new DynamicParameters();
+                p.Add("@FirstName", model.FirstName);
+                p.Add("@LastName", model.LastName);
+                p.Add("@EmailAddress", model.EmailAddress);
+                p.Add("@CellPhoneNumber", model.CellPhoneNumber);
+                p.Add("@id", 0, dbType: DbType.Int32, direction: ParameterDirection.Output);
+
+                connection.Execute("dbo.spPeople_Insert", p, commandType: CommandType.StoredProcedure);
+
+                model.Id = p.Get<int>("@id");
+
+                return model;
+            }
+        }
+
         public PrizeModel CreatePrize(PrizeModel model)
         {
             using (IDbConnection connection = new System.Data.SqlClient.SqlConnection(GlobalConfig.CnnString("Tournaments")))
@@ -30,6 +50,16 @@ namespace TrackerLibrary.DataAccess
                 return model;
             }
 
+        }
+
+        public List<Person> GetPerson_All()
+        {
+            List<Person> output;
+            using (IDbConnection connection = new System.Data.SqlClient.SqlConnection(GlobalConfig.CnnString("Tournaments")))
+            {
+                output = connection.Query<Person>("dbo.spPeople_GetAll").ToList();
+            }
+            return output;
         }
     }
 }
